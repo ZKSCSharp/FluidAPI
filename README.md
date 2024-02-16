@@ -4,7 +4,7 @@ A C# packages to make api calls very simply
 
 Exemple :
 
-
+```csharp
 static void Main(string[] args)
 {
   List<APIField> fields = new List<APIField>();
@@ -21,3 +21,4 @@ private static void connection(string response)
   else
 L{ Console.Writeline("Error"); }
 }
+```
