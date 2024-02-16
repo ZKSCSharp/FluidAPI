@@ -19,6 +19,6 @@ private static void connection(string response)
   if (response.Equal("Granted")
   { Console.WriteLine("Success"); }
   else
-L{ Console.Writeline("Error"); }
+  { Console.Writeline("Error"); }
 }
 ```
